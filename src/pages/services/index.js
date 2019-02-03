@@ -9,21 +9,14 @@ class Services extends Component {
   render() {
     return (
       <div>
-        <Container>
-          <Row>
-            <Col>
-              <Navigation />
-            </Col>
-          </Row>
-        </Container>
-        <Container>
-        <Row>
-          <Col>
+          <div>
+            <Navigation />
+          </div>
+          <div>
             <Subscription />
-          </Col>
-        </Row>
-        </Container>
+          </div>
       </div>
+
     );
   }
 }

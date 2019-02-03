@@ -8,7 +8,7 @@ class SubscriptionCard extends Component {
     render() {
       return (
 
-        <Container>
+        <Container fluid>
             <Row>
             <Col>
             <div>
