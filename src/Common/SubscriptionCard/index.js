@@ -7,7 +7,7 @@ import '../../styles/main.css';
 class SubscriptionCard extends Component {
     render() {
       return (
-        <Container fluid>
+        <Container className="container-subscription">
             <Row>
             <Col>
             <div>
