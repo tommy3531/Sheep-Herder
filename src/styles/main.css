@@ -127,4 +127,9 @@ header.masthead .intro-text .intro-heading {
       font-size: 1.25em;
       padding: 12px 0;
     }
+
+    .service-heading {
+      margin: 15px 0;
+      text-transform: none;
+    }
   }
