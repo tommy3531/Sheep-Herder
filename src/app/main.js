@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Route, BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
+import { Link } from "gatsby";
+
 
 // Pages
 import Home from "../pages/home";
@@ -50,13 +52,10 @@ class Main extends Component {
     console.log("Render");
     return (
       <BrowserRouter>
-        <div>
-            <Route exact path="/" component={Landing} />
-            <Route path="/home" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/layout" component={Layout} />
-
-        </div>
+        <Route exact path="/" component={Layout} />
+        <Route path="/home" component={Home} />
+        <Route path="/about" component={About} />
+        {/* <Route path="/layout" component={Layout} /> */}
       </BrowserRouter>
     );
   }
