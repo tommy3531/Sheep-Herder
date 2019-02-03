@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Route, BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
-import { Link } from "gatsby";
-
 
 // Pages
 import Home from "../pages/home";
@@ -12,7 +10,6 @@ import Contact from "../pages/contact";
 import Layout from "../pages/layout";
 
 // Routes
-
 class Main extends Component {
   constructor() {
     super();
@@ -58,9 +55,6 @@ class Main extends Component {
         <Route path="/about" component={About} />
         <Route path="/register" component={Register} />
         <Route path="/contact" component={Contact} />
-
-
-        {/* <Route path="/layout" component={Layout} /> */}
       </BrowserRouter>
     );
   }
