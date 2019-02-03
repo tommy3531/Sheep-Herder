@@ -42,7 +42,7 @@ class Navigation extends Component {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#team">
+                  <a class="nav-link js-scroll-trigger" href="/register">
                     Register
                   </a>
                 </li>

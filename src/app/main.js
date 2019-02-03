@@ -7,7 +7,8 @@ import { Link } from "gatsby";
 // Pages
 import Home from "../pages/home";
 import About from "../pages/about";
-import Landing from "../pages/landing";
+import Register from "../pages/register";
+import Contact from "../pages/contact";
 import Layout from "../pages/layout";
 
 // Routes
@@ -55,6 +56,10 @@ class Main extends Component {
         <Route exact path="/" component={Layout} />
         <Route path="/home" component={Home} />
         <Route path="/about" component={About} />
+        <Route path="/register" component={Register} />
+        <Route path="/contact" component={Contact} />
+
+
         {/* <Route path="/layout" component={Layout} /> */}
       </BrowserRouter>
     );
