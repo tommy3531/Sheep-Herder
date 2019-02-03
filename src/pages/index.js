@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import { Container } from "reactstrap";
 
-import Navigation from '../../Common/Navigation';
-import Header from '../../Common/Header';
+import Navigation from '../Common/Navigation';
+import Header from '../Common/Header';
 
 
 class Layout extends Component {
