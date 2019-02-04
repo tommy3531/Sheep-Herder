@@ -141,3 +141,21 @@ header.masthead .intro-text .intro-heading {
     margin-left: auto;
     margin-top: 70px;
   }
+
+  .netlify-identity-signup {
+    color: rgb(116, 170, 240);
+  }
+
+  .netlify-identity-login {
+    color: rgb(116, 170, 240);
+  }
+
+  .netlify-identity-logout {
+    color: rgb(116, 170, 240)
+  }
+
+  .netlify-identity-menu {
+    list-style: none;
+    margin: 0;
+    color: rgb(116, 170, 240);
+  }

@@ -2,9 +2,15 @@ import { Nav, NavItem, NavLink, Container, Row, Col } from "reactstrap";
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "../../styles/main.css";
+import netlifyIdentify from 'netlify-identity-widget';
 
 class Navigation extends Component {
+
+  componentDidMount() {
+    netlifyIdentify.init();
+  }
   render() {
+    const {siteTitle} = this.props;
     return (
       <Container>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -45,6 +51,10 @@ class Navigation extends Component {
                   <a class="nav-link js-scroll-trigger" href="/register">
                     Register
                   </a>
+                </li>
+                <li className="nav-item">
+                  <div data-netlify-identity-menu></div>
+
                 </li>
               </ul>
             </div>
